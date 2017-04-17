@@ -10,8 +10,8 @@ window.addEventListener("load", function(){
 
   for(i=0; i<closed.length; i++){
 
-    closed[i].addEventListener("click", function(e){
-      e.target.parentNode.style.display = "none";
+    closed[i].addEventListener("click", function(){
+      this.parentNode.style.display = "none";
     });
   }
   reset.addEventListener("click", function(){
