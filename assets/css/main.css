@@ -5,6 +5,7 @@
   padding: 0;
 }
 body{
+  width: 100%;
   background-color: black;
 }
 ul{
@@ -24,14 +25,48 @@ a:hover{
   color: green;
 }
 .img-panda{
-  top: 0;
+  left: 12%;
   border: solid 6px grey;
   margin: 2%;
   width: 15%;
   height: 200px;
   display: inline-block;
+  position: relative;
 }
 img{
   width: 100%;
   height: 100%;
+}
+.close{
+  color: #90EE90;
+  font-size: 35px;
+  position: absolute;
+  left: 3%;
+  top: -5%;
+}
+.menu{
+  padding: 3% 9% 0 12%;
+  margin-bottom: 3%;
+}
+.menu-central{
+  background-color: #B22222;
+  display: inline-block;
+  width: 33%;
+  color: white;
+  text-align: center;
+}
+.contenido{
+  padding: 0 4% 0 8%;
+}
+.contenido div{
+  width: 49%;
+  padding: 0 2%;
+  display: inline-block;
+}
+p{
+  text-align: justify;
+  color: white;
+}
+.ocultar{
+  display: none;
 }
