@@ -43,6 +43,10 @@ img{
   position: absolute;
   left: 3%;
   top: -5%;
+  cursor: pointer;
+}
+.close:hover{
+  color: red;
 }
 .menu{
   margin: 3% 10% 3% 11.5%;
@@ -55,6 +59,14 @@ img{
   text-align: center;
   height: 30px;
   padding-top: .5%;
+  cursor: pointer;
+}
+.menu-central:hover{
+  background-color: #D3D3D3;
+  color: black;
+  font-weight: bold;
+  border: solid 1px #B22222;
+
 }
 .contenido{
   padding: 0 9% 0 10%;
