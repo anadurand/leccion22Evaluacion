@@ -6,11 +6,11 @@
 }
 body{
   width: 100%;
-  background-color: black;
+  background-color: #1d1a05;
 }
 ul{
   padding-left: 10%;
-  background-color: #B22222;
+  background-color: #ca3c25;
 }
 li{
   display: inline-block;
@@ -45,11 +45,11 @@ img{
   top: -5%;
 }
 .menu{
-  padding: 3% 9% 0 12%;
+  padding: 3% 5.5% 0 11.5%;
   margin-bottom: 3%;
 }
 .menu-central{
-  background-color: #B22222;
+  background-color: #ca3c25;
   display: inline-block;
   width: 33%;
   color: white;
@@ -58,12 +58,18 @@ img{
   padding-top: .5%;
 }
 .contenido{
-  padding: 0 4% 0 8%;
+  padding: 0 4% 0 10%;
 }
 .contenido div{
   width: 49%;
   padding: 0 2%;
   display: inline-block;
+}
+#contentOrigen{
+  float: left;
+}
+#contentExtincion{
+  float: right;
 }
 p{
   text-align: justify;
@@ -71,5 +77,5 @@ p{
 }
 
 .ocultar{
-visibility: hidden;
+  visibility: hidden;
 }
