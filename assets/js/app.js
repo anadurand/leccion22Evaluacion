@@ -21,7 +21,10 @@ window.addEventListener("load", function(){
   });
 
   origen.addEventListener("click", function(){
-    contentOrigin.toggleClass("ocultar");
+    contentOrigin.classList.toggle("ocultar");
+  });
+  extincion.addEventListener("click", function(){
+    contentExtincion.classList.toggle("ocultar");
   });
 
 

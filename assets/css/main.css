@@ -54,6 +54,8 @@ img{
   width: 33%;
   color: white;
   text-align: center;
+  height: 30px;
+  padding-top: .5%;
 }
 .contenido{
   padding: 0 4% 0 8%;
@@ -67,6 +69,7 @@ p{
   text-align: justify;
   color: white;
 }
+
 .ocultar{
-  display: none;
+visibility: hidden;
 }
