@@ -7,19 +7,20 @@ window.addEventListener("load", function(){
   var contentOrigin = document.getElementById("contentOrigen");
   var contentExtincion = document.getElementById("contentExtincion");
 
-
+  //funcion para ocultar imagenes
   for(i=0; i<closed.length; i++){
 
     closed[i].addEventListener("click", function(){
       this.parentNode.style.display = "none";
     });
   }
+  //restablecer imagenes
   reset.addEventListener("click", function(){
     for(i=0; i<closed.length; i++){
       closed[i].parentNode.style.display = "inline-block";
     }
   });
-
+  //visibility hidden origen y extincion
   origen.addEventListener("click", function(){
     contentOrigin.classList.toggle("ocultar");
   });
